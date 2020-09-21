@@ -3,7 +3,7 @@ This app lets you to view your DHT readouts and Platower PMS7003 Air Quality Ind
 
 Sample:
 
-![alt text](http://i.imgur.com/PIy4PLe.jpg "Sample of what it looks like")
+![alt text](https://github.com/awmlee/damn_hot_pie/blob/master/Capture.PNG "Sample of what it looks like")
 
 (Viewing this plot may require you to push the autoscale button on plot.)
 
