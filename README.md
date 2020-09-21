@@ -1,5 +1,7 @@
 # Raspberry Pi Temperature Humidity (DHT sensor) + Air Quality Sensor (Plantower PMSx003) Website App
-This app lets you to view Temperature and Humidity (DHT readouts) and PM1, PM2.5, and PM10 Air Quality Index values (Plantower PMS7003 sensor) online in a form of interactive plot hosted from your Raspberry Pi.  This is modification of the damn_hot_pie (from mwmajewsk) which hadn't been updated since 2015.  
+This app lets you to view Temperature and Humidity (DHT readouts) and PM1, PM2.5, and PM10 Air Quality Index values (Plantower PMS7003 sensor) online in a form of interactive plot hosted from your Raspberry Pi.  This is modification of the damn_hot_pie (from mwmajewsk) which hadn't been updated since 2015.  I made the changes so that I could monitor indoor air quality during the 2020 California wildfires.  Using this setup, I was able to monitor AQI and verify the effectiveness of my air filters -- since I'm stuck at home all day b/c COVID-19.
+
+This same raspberry pi also runs an RPi Camera server on another webpage, so it's doing a lot of work.     
 
 Sample:
 
