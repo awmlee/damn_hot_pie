@@ -23,7 +23,11 @@ Sample:
 ##Dependencies
 For web server and database dependencies requirements run:
 ```
-sudo pip install -r requirements.txt
+pip3 install Flask
+pip3 install SQLAlchemy
+pip3 install flask-sqlalchemy==2.1.0
+pip3 install Adafruit_DHT
+pip3 install pms7003 
 ```
 
 You will also need Adafruit Python DHT driver. 
@@ -48,7 +52,7 @@ Website will run defaultly on host `0.0.0.0` and port `8080`.
 This file contains sql model of the database where all sensor data will be saved. Running this script will result in creating file `dht_database.db` in folder where `model.py` is.
 
 ###record_data.py and recording data to database
-Contains class responsible for acquiring data input and saving it in database. Can be runned separately as script. If runned, will loop endlessly and save sensor data to database with given interval.
+Contains class responsible for acquiring data input and saving it in database. Can be runned separately as script. If run, will loop endlessly and save sensor data to database with given interval.  (Note 2020:  This is currently hard coded for DHT11 as the previous version wasn't running)
 
 ```
 Usage: record_data.py [options]
@@ -99,6 +103,11 @@ Options:
 
 
 ###run_app.py
+(Note 2020:  This is untested.  I run 
+python3 record_data.py -p &
+and
+python3 server.py &)
+
 This script combines run of `service.py` and `record_data.py`.
 The recording class from `record_data.py` runs as a separate thread.
 ```
