@@ -9,9 +9,10 @@ if __name__ == "__main__":
 	parser = server.add_parser_options(parser)
 	parser = record_data.add_parser_options(parser)
 	opts, args = parser.parse_args()
-	sensor = record_data.sensor_args[opts.s]
+	#sensor = record_data.sensor_args[opts.s]
+	sensor=1
 	sd = record_data.SensorDatabase(opts.pin, sensor, opts.t, opts.p)
 	sd.daemon = True
 	sd.start()
-	print "serwer running"
+	print("serwer running")
 	server.app.run(host=opts.host, port=opts.port)
