@@ -1,5 +1,5 @@
-# Raspberry Pi DHT sensor + PMSx003 Air Quality Sensor website app
-This app lets you to view your DHT readouts and Plantower PMS7003 Air Quality Index sensor  online in a form of interactive plot.  This is modification of the damn_hot_pie (from mwmajewsk) which hadn't been updated since 2015.  
+# Raspberry Pi Temperature Humidity (DHT sensor) + Air Quality Sensor (Plantower PMSx003) Website App
+This app lets you to view Temperature and Humidity (DHT readouts) and PM1, PM2.5, and PM10 Air Quality Index values (Plantower PMS7003 sensor) online in a form of interactive plot hosted from your Raspberry Pi.  This is modification of the damn_hot_pie (from mwmajewsk) which hadn't been updated since 2015.  
 
 Sample:
 
