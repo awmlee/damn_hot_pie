@@ -1,5 +1,5 @@
 # Raspberry Pi DHT sensor + PMSx003 Air Quality Sensor website app
-This app lets you to view your DHT readouts and Platower PMS7003 Air Quality Index sensor  online in a form of interactive plot.  This is modification of the damn_hot_pie which hand't been modified since 2015.  
+This app lets you to view your DHT readouts and Platower PMS7003 Air Quality Index sensor  online in a form of interactive plot.  This is modification of the damn_hot_pie (from mwmajewsk) which hadn't been updated since 2015.  
 
 Sample:
 
