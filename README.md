@@ -104,8 +104,11 @@ Options:
 
 ###run_app.py
 (Note 2020:  This is untested.  I run 
+
 python3 record_data.py -p &
+
 and
+
 python3 server.py &)
 
 This script combines run of `service.py` and `record_data.py`.
